@@ -1,16 +1,19 @@
-### Hi there 👋
+# GIT Command
 
-<!--
-**trongnhantaisacventoan/trongnhantaisacventoan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+1. Create ssh
 
-Here are some ideas to get you started:
+```
+ssh-keygen -t ed25519 -C "trongnhantaisacventoan@gmail.com"
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+2. Copy public key
+
+```
+pbcopy < ~/.ssh/id_ed25519_taisacventoan.pub
+```
+
+4. Copy private key
+
+```
+pbcopy < ~/.ssh/id_ed25519_taisacventoan
+```
