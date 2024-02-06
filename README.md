@@ -17,3 +17,7 @@ pbcopy < ~/.ssh/id_ed25519_taisacventoan.pub
 ```
 pbcopy < ~/.ssh/id_ed25519_taisacventoan
 ```
+
+# Follow instruction
+
+https://gist.github.com/oanhnn/80a89405ab9023894df7
